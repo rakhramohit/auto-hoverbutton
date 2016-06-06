@@ -2,7 +2,7 @@
 
 Screenshot
 
-![ScreenShot](device-2016-06-06-123153.png)
+![ScreenShot](ScreenShot/device-2016-06-06-123153.png)
 
 Copyright [2016] [Mohit Rakhra]
 
