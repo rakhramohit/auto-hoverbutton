@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'autohoverbutton'
+
+    publishedGroupId = 'com.rakhra.autohoverlayout'
+    libraryName = 'AutoHoverlayout'
+    artifact = 'autohoverbutton'
+
+    libraryDescription = 'Android Lib to by-pass all the tedious work for making a layout or drawable selected'
+
+    siteUrl = 'https://github.com/rakhramohit/auto-hoverbutton'
+    gitUrl = 'https://github.com/rakhramohit/auto-hoverbutton.git'
+
+    libraryVersion = '1.0'
+
+    developerId = 'mohitrakhra'
+    developerName = 'Mohit Rakhra'
+    developerEmail = 'rakhra.mohit91@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+
+}
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
