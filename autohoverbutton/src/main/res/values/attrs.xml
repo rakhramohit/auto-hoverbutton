@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnimatedTabBar">
+        <!-- Action Layout -->
+        <attr name="atb_background_selector" format="string" />
+        <attr name="atb_background_normal" format="string" />
+        <attr name="atb_drawable_normal" format="reference" />
+        <attr name="atb_drawable_selector" format="reference" />
+        <attr name="atb_margin" format="dimension" />
+        <attr name="atb_textColor_normal" format="string" />
+        <attr name="atb_textColor_selector" format="string" />
+        <attr name="atb_textSize" format="integer" />
+        <attr name="atb_text" format="string"/>
+
+        <!--<attr name="atb_animation" format="enum" >
+        <enum name="Default" value="0">Default</enum>
+        <enum name="Fade_In" value="1">Fade_In</enum>
+        <enum name="Fade_Out" value="2">Fade_Out</enum>
+        </attr>-->
+
+    </declare-styleable>
+</resources>
